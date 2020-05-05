@@ -1,0 +1,45 @@
+.main {
+  width: 400px;
+  /* margin: 0 auto; */
+}
+
+.divisor {
+  margin: 0 auto;
+  border-left: 2px dashed #258CC7;
+  height: 100%;
+  width: 2px;
+}
+
+.boxes {
+  position: absolute;
+  width: 397px;
+  left: 35px;
+}
+
+.date {
+  /* clear: both; */
+  width: 46.60%;
+}
+
+.bullet::before {
+  border: 8px solid rgba(255, 255, 255, 0.74);
+  border-radius: 500%;
+  background: #258CC7;
+  width: 15px;
+  height: 15px;
+  content: " ";
+  transition: all 500ms ease-in-out;
+  padding-left: 17px;
+  position: relative;
+  right: 40px;
+}
+
+.box {
+  width: 46.60%;
+  float: left;
+  margin-right: 11px;
+}
+
+.code {
+  font-weight: bold;
+}
